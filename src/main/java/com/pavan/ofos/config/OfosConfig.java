@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Bean;
 @Configuration
 @ComponentScan("com.pavan.ofos")
 @PropertySource("classpath:application.properties")
-public class ofosConfig{
+public class OfosConfig{
     
 }

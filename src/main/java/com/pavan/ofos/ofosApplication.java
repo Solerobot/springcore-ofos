@@ -5,7 +5,7 @@ import java.util.*;
 
 
 @Component
-public class ofosApplication{
+public class OfosApplication{
         private  Order order;
         private Map<String,Restaurant> restaurants;
         private Map<String,Food> foods;
@@ -13,7 +13,7 @@ public class ofosApplication{
         private BillingService billing;
         private double price;
 
-   public ofosApplication(Map<String,Restaurant> restaurants, Map<String,Food> foods,NotificationService notificationService,BillingService billing,Order order){
+   public OfosApplication(Map<String,Restaurant> restaurants, Map<String,Food> foods,NotificationService notificationService,BillingService billing,Order order){
         this.restaurants=restaurants;
         this.foods=foods;
         this.notificationService=notificationService;

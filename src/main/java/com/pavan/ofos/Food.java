@@ -1,8 +1,13 @@
 package com.pavan.ofos;
 
-import org.springframework.stereotype.Component;
+public enum Food{
+    PIZZA(200),BURGER(150),BIRYANI(180);
 
-@Component
-public class Food{
-    
+    private int basePrice;
+    Food(int basePrice){
+        this.basePreice=basePrice;
+    }
+    public int getPrice(){
+        return basePrice;
+    }
 }
